@@ -144,11 +144,20 @@
                             <option value="5">5 (Strongly Agree)</option>
                         </select>
                     </div>
-                </form> 
-                <button type="submit" class="btn btn-primary mb-4" id="submit">Submit</button>
+                        <button type="submit" class="btn btn-primary mb-4 mt-4" id="submit">Submit</button>
+                </form>   
             </div>            
         </div>
     </div>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col">
+                <a href="/api/friends">API Friends List</a> | <a href="https://github.com/kenny5410/Friend-Finder.git">GitHub Repo</a>
+            </div>
+        </div>
+    </div>
+    
     <!--Modal-->
     <div id="results-modal" class="modal fade" role="dialog" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -215,7 +224,7 @@
                 });
             }
             else {
-                alert("please fill out all fields");
+                alert("Please complete all the fields!");
             }    
     });
     </script>
