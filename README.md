@@ -12,4 +12,4 @@ The below steps will walk you through how the application works
 5. Click the submit button. 
 6. You will be presented with the name and picture of the person that your answers to the survey were the closest to.
 
-![First Screenshot](/assets/bamazon1.png?raw=true "First Screenshot")
+![First Screenshot](/assets/screenshot1.png?raw=true "First Screenshot")
